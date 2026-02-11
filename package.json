@@ -1,7 +1,7 @@
 {
   "name": "wedding-invitation-alison-javier",
   "private": true,
-  "version": "1.24.0",
+  "version": "1.25.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -20,4 +20,3 @@
     "vite": "^6.0.0"
   }
 }
-// v1.24 - Trigger commit for Vercel deployment
