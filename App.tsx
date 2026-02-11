@@ -14,7 +14,6 @@ const App: React.FC = () => {
       <main className="opacity-100 scale-100 transition-opacity duration-1000">
         <Hero />
         
-        {/* Contenedor principal ahora responsivo: max-w-6xl en desktop */}
         <div className="max-w-6xl mx-auto px-6 pb-20 space-y-24 md:space-y-32">
           
           <section id="welcome" className="text-center pt-16 md:pt-24 animate-in fade-in slide-in-from-bottom-4 duration-1000 max-w-2xl mx-auto">
@@ -43,7 +42,6 @@ const App: React.FC = () => {
                 <p className="font-serif italic text-xl md:text-2xl text-gray-800 mb-8">Momentos juntos</p>
              </div>
              <Gallery />
-             {/* El botón de subir fotos se ha eliminado para usar el hashtag de Instagram */}
           </section>
 
           <div className="max-w-2xl mx-auto w-full">
@@ -62,4 +60,4 @@ const App: React.FC = () => {
 };
 
 export default App;
-// v1.13 - Limpieza de la sección de galería.
+// v1.22 - Sincronización de componentes para Vite.

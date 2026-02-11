@@ -20,4 +20,4 @@
   "include": ["./**/*.ts", "./**/*.tsx"],
   "exclude": ["node_modules"]
 }
-// v1.20 - tsconfig optimizado para React 19.
+// v1.21 - tsconfig version check.

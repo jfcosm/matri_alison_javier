@@ -4,12 +4,9 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  server: {
-    port: 3000,
-  },
   build: {
     outDir: 'dist',
-    sourcemap: true
+    emptyOutDir: true
   }
 });
-// v1.19 - Configuración de Vite para React.
+// v1.22 - Build config optimized
