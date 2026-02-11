@@ -6,7 +6,11 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'dist',
-    emptyOutDir: true
+    emptyOutDir: true,
+    sourcemap: false
+  },
+  server: {
+    port: 3000
   }
 });
-// v1.22 - Build config optimized
+// v1.23 - Vite config production ready

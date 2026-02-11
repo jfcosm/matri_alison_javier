@@ -2,7 +2,7 @@
 {
   "name": "wedding-invitation-alison-javier",
   "private": true,
-  "version": "1.22.0",
+  "version": "1.23.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -21,4 +21,4 @@
     "vite": "^6.0.0"
   }
 }
-// v1.22 - Forzar detección de cambios
+// v1.23 - Configuración lista para Vercel
